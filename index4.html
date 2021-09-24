@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="cssWo/main.css">
+<link rel="stylesheet" href="cssWo/Umain.css">
+<link rel="stylesheet" type="text/css" href="file:///C:/Users/Jerry/Documents/web/owobloweb/fontawesome-free-5.15.3-web/css/all.css">
+<link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Alef' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Bree Serif' rel='stylesheet'>
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+	<img src="images/owoblow.png"><span style="font-family:Amaranth; "><br>GREAT OWOBLOW FURNITURE COMPANY</span>
+  		<a href="index4.html">HOME</a>
+  		<a href="work.html">OUR WORK</a>
+  		<a href="contact.html">CONTACT</a>
+ 		 <a href="about.html">ABOUT</a>
+  		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+   		 <i class="fa fa-bars"></i>
+  		</a>
+</div>
+<hr>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="images/furnitureimage3.png" style="width:100%">
+  <div class="text">HOME OF<br>INTERIOR AND EXTERIOR FURNITURE DESIGNS</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="images/furnitureimage4.png" style="width:100%">
+  <div class="text">OUTSTANDING<br>VARIETIES OF FURNITURE DESIGNS FOR HOME AND OFFICE</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="images/furnitureimage1.jpg" style="width:100%">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<!--About-->
+          <div class="about">
+            <h2>ABOUT US</h2>
+            <p> Great owoblow furniture company has it's headquarter based in Ekiti State and a branch in Ondo state,Nigeria. The company is more passionate about all
+            facets of interior and exterior furniture designs and belief it's an
+            essential component to delivering a comprehensive and successful Home and Office project.
+            The focus is always on creating spaces that are sophisticated, refined and genuinely
+            reflecting a client's personality or brand.</p>
+          <div class="button2">
+            <button class="btn2"><a href="about.html">Read More&nbsp;&nbsp;<i class="fas fa-arrow-right"></i></a></button>
+            </div>
+          </div>
+    </section>
+      <!--features-->
+    <section class="feature">
+      <h2>WHY CHOOSE US</h2>
+      <div class="grid-2">
+        <div class="item1"> <img src="images/logo2.png">
+          <h3> Professionalism & Excellence</h3>
+            <p>Professionalism and Excellence are at the
+            core of what we do and we deliver these through
+            our teams of experienced design professionals
+            and furniture craftsman and dedicated staff.</p>
+        </div>
+        <div class="item1"> <img src="images/logo1.png">
+          <h3> Nationwide delivery and services</h3>
+            <p>We are not afriad to hit the roads no matter where
+            your site is located in Nigeria. You can trust on us to
+            deliver the same quality products and services.</p>
+        </div>
+        <div class="item1"> <img src="images/logo4.png">
+          <h3> Peace of Mind</h3>
+            <p> From our designs to material selections to inventory
+            sourcing to manufacturing to packaging to delivery allow
+            business processes. We geared towards guaranteeing your
+            peace of mind.</p>
+        </div>
+        <div class="item1"> <img src="images/logo4.png">
+          <h3> Value of Money</h3>
+            <p>When you trust us by purchasing a product or paying
+            for a service, we commit ourselves giving you maximum
+            value of your investment including your happiness and satisfaction</p>
+        </div>
+      </div>
+    </section>
+
+<!--ourworks-->
+    <section class="work">
+      <h2> OUR WORKS</h2>
+        <div class="gird3">
+          <div class="works">
+          <img src="images/pic1.png" width="350" height="250">
+          <div class="desc"> Sitting room</div>
+          </div>
+          <div class="works">
+          <img src="images/pic2.jpg" width="350" height="250">
+            <div class="desc"> Office</div>
+          </div>
+          <div class="works">
+          <img src="images/Restaurant.jpeg" width="350" height="250">
+            <div class="desc"> Restaurant</div>
+          </div>
+          <div class="works">
+          <img src="images/pic5.jpg" width="350" height="250">
+            <div class="desc">Sitting room</div>
+          </div>
+          <div class="works">
+          <img src="images/pic4.png" width="350" height="250">
+            <div class="desc">Bedroom</div>
+          </div>
+          <div class="works">
+          <img src="images/pic3.jpg" width="350" height="250">
+          <div class="desc"> Spoke stoll</div>
+          </div>
+          <div class="works">
+          <img src="images/painting9.jpg" width="350" height="250">
+          <div class="desc">Sitting room wall painting</div>
+          </div>
+          <div class="works">
+          <img src="images/painting6.jpg" width="350" height="250">
+            <div class="desc">Bedroom wall painting</div>
+          </div>
+          <div class="works">
+          <img src="images/painting8.jpg" width="350" height="250">
+            <div class="desc">Office wall painting</div>
+          </div>
+          <div class="works">
+          <img src="images/pic8.jpg" width="350" height="250">
+            <div class="desc"> Sofa chair</div>
+          </div>
+          <div class="works">
+          <img src="images/pic7.jpg" width="350" height="250">
+            <div class="desc"> Leather Padded Bed</div>
+          </div>
+          <div class="works">
+          <img src="images/pic6.png" width="350" height="250">
+          <div class="desc">Wardrobe</div>
+          </div>
+        </div>
+      <div class="clearfix"></div>    
+        <div class="button2">
+            <button class="btn2"><a href="work.html">Load More&nbsp;&nbsp;<i class="fas fa-arrow-right"></i></a></button>
+        </div>
+    </section>
+
+  <section class=customer>
+    <div class="contact">
+      <h4> We strive to provide World-class Customer service</h4>
+        <h5> Get across to us today!</h5>
+        <div class="customer2">
+          <div class="cust"><a href="Tel:+2348166057116"><i class="fas fa-phone-square-alt">&nbsp;&nbsp;CALL US</i></a></div>
+          <div class="cust"><a href="mailto:greatowoloblowgoldenventures@gmail.com?subject=subject&cc=ccgreatowoblowgoldenventures@gmail.com"><i class="fas fa-envelope">&nbsp;&nbsp;EMAIL US</i></a></div>
+          <div class="cust"><a href="https://wa.me/+2348166057116"><i class="fab fa-whatsapp">&nbsp;&nbsp;CHAT WITH US</i></a></div>
+        </div>
+    </div>
+  </section>
+
+<!--footer-->
+    <footer>
+      <div class="foot2">
+        <div>
+          <h1 class="logo2"><img src="images/owoblow.png">
+            <nav>
+              <ul>
+                <li> <a href="index4.html">HOME<a/></li>
+                <li> <a href="work.html">OUR WORKS<a/><li>
+                <li> <a href="contact.html">CONTACT US</a></li>
+                <li> <a href="about.html">ABOUT US </a></li>
+              </ul>
+            </nav>
+        </div>
+        <div class="social">
+          <h3>FOLLOW US</h3>
+          <a href="https://m.facebook.com/greatowoblowfurniture"> <i class="fab fa-facebook fa-2x"></i></a>
+          <a href="https://www.instagram.com/theowoblowfurniture_company/"> <i class="fab fa-instagram fa-2x"></i></a>
+          <a href=""> <i class="fab fa-twitter fa-2x"></i></a>
+        </div>
+        <div>
+        <div class="us">
+          <h3>CONTACT INFORMATION</h3>
+          <div class="us2">
+            <i class="fas fa-map-marker-alt fa-2x"></i>
+            <h4>Headquarter office<br>
+            Adebayo road opposite Adekaitan filling station, Ado Ekiti,Ekiti state.<br>
+            Branch office<br>
+            Elesare quarter, Orita obele, Akure,Ondo state.</h4>
+            <div>
+            <i class="fas fa-phone-square-alt">&nbsp;&nbsp;<a href="Tel:+2348166057116">08166057116</a>,
+            <a href="Tel:+2348105668408">08105668408</a></i>
+            </div>
+            <div>
+            <i class="fas fa-envelope">&nbsp;&nbsp;<a href="mailto:greatowoloblowgoldenventures@gmail.com?subject=subject&cc=ccgreatowoblowgoldenventures@gmail.com">Greatowoblowgoldenventures@gmail.com</a></i>
+            </div>
+          </div>
+        </div>
+      </div>    
+    </footer>
+    <hr>
+    <h5 style="text-align: center; font-size:20px;font-family:candara"> Copyright&copy 2021. All rights reserved.</h5>
+  </body>
+</html>
+</body>
+</html>
